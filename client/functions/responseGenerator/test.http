@@ -1,0 +1,11 @@
+POST https://platform-dev.getalchemystai.com/api/v1/chat/generate
+Content-Type: "application/json"
+Authorization: "Bearer sk-U468I-UASQC-MD9MI-03WWQ"
+
+{
+  "chat_history": [
+    {"content": "Hey, how are you?", "role": "user"}
+  ],
+  "persona": ""
+}
+
